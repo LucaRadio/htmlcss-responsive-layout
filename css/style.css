@@ -93,7 +93,7 @@ button {
 .card {
     background-color: var(--color-secondary);
     border-radius: 25px;
-    height: 100%;
+    min-height: 100px;
     border: 1px dashed black;
     display: flex;
 }
@@ -105,4 +105,28 @@ button {
 .strategic-img-container {
     background-color: aqua;
     min-height: 100px;
+}
+
+.ex {
+    background-color: brown;
+    min-height: 100px;
+}
+
+.col-container {
+    width: 50%;
+    background-color: burlywood;
+    min-height: 100px;
+}
+
+.pre-footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.col-center {
+    text-align: center;
+}
+
+footer {
+    background-color: #333333;
 }
