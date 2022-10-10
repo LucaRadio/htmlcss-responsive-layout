@@ -1,0 +1,23 @@
+@media screen and (min-width:576px) {
+
+    .col-1-3 {
+        width: calc(100% / 3);
+    }
+
+    .col-2-3 {
+        width: calc((100% / 3) * 2);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .right-nav {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:992px) {}
