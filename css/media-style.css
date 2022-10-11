@@ -36,6 +36,18 @@
         height: 100%;
     }
 
+    .img-about-us {
+        margin: auto;
+    }
+
+    .img-about-us {
+        width: 200px;
+    }
+
+    .about {
+        padding-left: 2rem;
+    }
+
 }
 
 @media screen and (min-width:992px) {
@@ -60,12 +72,13 @@
         flex-basis: calc(100% / 3);
     }
 
-    .card-lg-2-3 {
-        display: flex;
-    }
 
     .description-container {
         flex-basis: calc(100%/2);
+    }
+
+    .col-2-3-lg {
+        flex-basis: calc(100% / 3 * 2);
     }
 
     .col-lg-1-4 {
@@ -76,6 +89,13 @@
         flex-basis: calc(100% / 4 * 3);
     }
 
+    .img-about-us {
+        padding-left: 2rem;
+    }
+
+    .about {
+        padding-left: 3rem;
+    }
 
 
 }
