@@ -2,6 +2,7 @@
     --color-primary: #0084fd;
     --color-secondary: #b5ddff;
     --color-bg-section: #9792e4;
+    --spacer-description: 1rem;
 }
 
 * {
@@ -59,6 +60,14 @@ h3 {
     color: var(--color-primary);
 }
 
+.fa-solid {
+    color: var(--color-primary);
+    font-size: 3rem;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
 .right-nav {
     height: 100%;
     align-items: center;
@@ -76,10 +85,13 @@ h3 {
     color: white;
 }
 
-.fa-bars {
+.hamburger {
     display: block;
+}
+
+nav .fa-solid.fa-bars {
     color: white;
-    padding: 0.7rem;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -112,8 +124,12 @@ h3 {
     height: 100%;
 }
 
-.col-1-3 .card>* {
-    margin-bottom: 1rem;
+.card .description-container>* {
+    margin-bottom: var(--spacer-description);
+}
+
+.card>* {
+    margin-bottom: var(--spacer-description);
     text-align: center;
 }
 
@@ -121,16 +137,19 @@ h3 {
     line-height: 1.5rem;
 }
 
+
+
 .phone-img-container img {
     display: block;
     position: relative;
-    bottom: -1rem;
+    bottom: -2rem;
     width: 100%;
     height: 100%;
 }
 
 .description-container>* {
-    margin-bottom: 1rem;
+    text-align: center;
+
 }
 
 .description-container p {
@@ -139,14 +158,6 @@ h3 {
 
 .fa-apple {
     padding: 0rem .5rem;
-}
-
-.fa-solid {
-    color: var(--color-primary);
-    font-size: 3rem;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
 }
 
 .description-container button {
