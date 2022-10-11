@@ -13,7 +13,7 @@
 
     .col {
         flex-grow: 1;
-        padding-left: 1rem;
+        padding-left: var(--spacer-description);
     }
 
     .row {
@@ -44,7 +44,7 @@
         display: none;
     }
 
-    .col-1-2 {
+    .col-lg-1-2 {
         width: 50%;
     }
 

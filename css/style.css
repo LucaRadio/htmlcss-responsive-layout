@@ -55,9 +55,19 @@ button {
     background-color: white;
 }
 
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 2rem 0rem;
+}
+
 h3 {
     font-size: 1.5rem;
     color: var(--color-primary);
+}
+
+p {
+    line-height: 1.5rem;
 }
 
 .fa-solid {
@@ -91,7 +101,7 @@ h3 {
 
 nav .fa-solid.fa-bars {
     color: white;
-    padding: 1rem;
+    padding: var(--spacer-description);
     font-size: 1rem;
 }
 
@@ -105,7 +115,7 @@ nav .fa-solid.fa-bars {
 .col {
     width: 100%;
     min-height: 100px;
-    padding-bottom: 1rem;
+    padding-bottom: var(--spacer-description);
 }
 
 .card-2-3 {
@@ -120,7 +130,7 @@ nav .fa-solid.fa-bars {
     background-color: var(--color-secondary);
     border-radius: 25px;
     border: 1px dashed black;
-    padding: 1rem;
+    padding: var(--spacer-description);
     height: 100%;
 }
 
@@ -132,12 +142,6 @@ nav .fa-solid.fa-bars {
     margin-bottom: var(--spacer-description);
     text-align: center;
 }
-
-.card p {
-    line-height: 1.5rem;
-}
-
-
 
 .phone-img-container img {
     display: block;
@@ -152,10 +156,6 @@ nav .fa-solid.fa-bars {
 
 }
 
-.description-container p {
-    line-height: 1.5rem;
-}
-
 .fa-apple {
     padding: 0rem .5rem;
 }
@@ -166,14 +166,48 @@ nav .fa-solid.fa-bars {
     color: white;
 }
 
+/* Seconda sezione */
+
+.bg-white {
+    background-color: white;
+}
 
 .bg-violet {
     background-color: var(--color-bg-section);
 }
 
-.strategic-img-container {
-    background-color: aqua;
-    min-height: 100px;
+.strategic-img-container,
+.description-planning {
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strategic-img-container img {
+    width: 100%;
+    display: block;
+}
+
+.strategic-img-container * {
+    color: black;
+}
+
+section .strategic-img-container button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+section .strategic-img-container button i {
+    font-size: 1rem;
+    background-color: var(--color-bg-section);
+    padding: 1.5rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: block;
 }
 
 .ex {
