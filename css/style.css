@@ -163,6 +163,7 @@ nav .fa-solid.fa-bars {
     position: relative;
     bottom: -2rem;
     width: 100%;
+    margin: auto;
 }
 
 .fa-apple {
