@@ -7,20 +7,6 @@
     .col-sm-50 {
         flex-basis: calc(100% / 2);
     }
-}
-
-@media screen and (min-width:768px) {
-    html {
-        font-size: 16px;
-    }
-
-    .col-md-2-3 {
-        flex-basis: calc(100% / 3 * 2);
-    }
-
-    .col-md-1-3 {
-        flex-basis: calc(100% / 3);
-    }
 
     .col {
         padding-left: var(--spacer-description);
@@ -28,6 +14,25 @@
 
     .row {
         margin-left: -1rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .col-sm-100 {
+        flex-basis: 100%;
+    }
+
+
+    .col-md-2-3 {
+        flex-basis: calc(100% / 3 * 2);
+    }
+
+    .col-md-1-3 {
+        flex-basis: calc(100% / 3);
     }
 
     .col-md-1-2 {
@@ -110,4 +115,57 @@
     }
 
 
+}
+
+@media screen and (min-width:1200px) {
+    .col-el-1-3 {
+        flex-basis: calc(100% / 3);
+        display: flex;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* Hamburger Menu */
+
+label i {
+    display: inline-block;
+    height: 100%;
+}
+
+label input {
+    display: none;
+}
+
+label input:checked+.menu {
+    transform: translatey(0);
+}
+
+.hamburger {
+    position: relative;
+    height: 100%;
+}
+
+.menu {
+    position: absolute;
+    width: 200px;
+    min-height: 200px;
+    background-color: #0084fd;
+    right: 10px;
+    transform: translatey(500px);
+    transition: all 1s;
+    border: 2px solid black;
+
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 1rem 0rem;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #b5ddff;
 }
