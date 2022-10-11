@@ -4,7 +4,7 @@
     }
 
     .col-md-1-3 {
-        width: calc(100% / 3);
+        flex-basis: calc(100% / 3);
     }
 
     .col-md-2-3 {
@@ -12,7 +12,6 @@
     }
 
     .col {
-        flex-grow: 1;
         padding-left: var(--spacer-description);
     }
 
@@ -21,11 +20,20 @@
     }
 
     .col-md-1-2 {
-        width: 50%;
+        flex-basis: 50%;
     }
 
     .phone-img-container {
         width: calc(100% / 2);
+    }
+
+    .card-testimonial {
+        flex-direction: row;
+    }
+
+    .testimonial-container img {
+        width: 100%;
+        height: 100%;
     }
 
 }
@@ -45,11 +53,11 @@
     }
 
     .col-lg-1-2 {
-        width: 50%;
+        flex-basis: 50%;
     }
 
     .col-1-3-lg {
-        width: calc(100% / 3);
+        flex-basis: calc(100% / 3);
     }
 
     .card-lg-2-3 {
@@ -57,7 +65,15 @@
     }
 
     .description-container {
-        width: calc(100%/2);
+        flex-basis: calc(100%/2);
+    }
+
+    .col-lg-1-4 {
+        flex-basis: calc(100% / 4);
+    }
+
+    .col-lg-3-4 {
+        flex-basis: calc(100% / 4 * 3);
     }
 
 

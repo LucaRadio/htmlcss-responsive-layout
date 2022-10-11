@@ -70,12 +70,14 @@ p {
     line-height: 1.5rem;
 }
 
+.text-violet {
+    color: var(--color-bg-section);
+}
+
 .fa-solid {
     color: var(--color-primary);
-    font-size: 3rem;
-    width: 100%;
+    font-size: 4rem;
     display: inline-block;
-    text-align: center;
 }
 
 .right-nav {
@@ -116,7 +118,9 @@ nav .fa-solid.fa-bars {
     width: 100%;
     min-height: 100px;
     padding-bottom: var(--spacer-description);
+    text-align: center;
 }
+
 
 .card-2-3 {
     background-color: var(--color-secondary);
@@ -130,8 +134,7 @@ nav .fa-solid.fa-bars {
     background-color: var(--color-secondary);
     border-radius: 25px;
     border: 1px dashed black;
-    padding: var(--spacer-description);
-    height: 100%;
+    padding: 1rem;
 }
 
 .card .description-container>* {
@@ -139,21 +142,15 @@ nav .fa-solid.fa-bars {
 }
 
 .card>* {
-    margin-bottom: var(--spacer-description);
-    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .phone-img-container img {
     display: block;
     position: relative;
-    bottom: -2rem;
+    bottom: -1rem;
     width: 100%;
     height: 100%;
-}
-
-.description-container>* {
-    text-align: center;
-
 }
 
 .fa-apple {
@@ -210,6 +207,64 @@ section .strategic-img-container button i {
     display: block;
 }
 
+/* Terza Sezione */
+
+.testimonial-container {
+    flex-basis: 100%;
+    aspect-ratio: 1/1;
+    margin: 0;
+}
+
+.testimonial-container img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-testimonial {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-bg-section);
+    flex-direction: column;
+}
+
+.card-testimonial>* {
+    color: white;
+}
+
+.grow-item {
+    flex-grow: 1;
+}
+
+.testimonial-name {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col>p {
+    margin-bottom: 1rem;
+}
+
+.fa-quote-right,
+.fa-quote-left {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.testimonial-description {
+    flex-grow: 1;
+    padding: 0rem 2rem;
+}
+
+
+
+
+
+
+
 .ex {
     background-color: brown;
     min-height: 100px;
@@ -224,10 +279,6 @@ section .strategic-img-container button i {
 .pre-footer-container {
     display: flex;
     justify-content: center;
-}
-
-.col-center {
-    text-align: center;
 }
 
 footer {
