@@ -36,6 +36,7 @@
 
     .phone-img-container {
         width: calc(100% / 2);
+        margin: auto;
     }
 
     .card-testimonial {
