@@ -102,10 +102,6 @@
         flex-basis: calc(100% / 4 * 3);
     }
 
-    .img-about-us {
-        padding-left: 2rem;
-    }
-
     .about {
         padding-left: 3rem;
     }
